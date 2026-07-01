@@ -12,7 +12,7 @@ model = LinearRegression()
 model.fit(X, y)
 print("Model has successfully learned the data!")
 
-new_student_hours = [[9]]
+new_student_hours = [[2.5]]
 prediction = model.predict(new_student_hours)
 
 print(
