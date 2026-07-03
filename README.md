@@ -18,4 +18,5 @@ Weak point :
 *Day 3 - My first ever Torch/tensor model.  
 Its functuion is nothing just it just take random data and predicts.  
 Weak point :  
-  Its predicts are just random because of random data inputted, i juat wanted to create a torch model, hence this is what i spend my day on.
+  Its predicts are just random because of random data inputted,  
+i just wanted to create a torch model, hence this is what i spend my day on.
