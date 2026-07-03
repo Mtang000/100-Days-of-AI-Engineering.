@@ -9,7 +9,13 @@ Weak point :
 
 
 
-*Daay 2 - Linear regression model with two variable and error margin.  
+*Day 2 - Linear regression model with two variable and error margin.  
 Its quite same model that predicts the score but now based on two variable with error margin.  
 Weak point :  
-  Same as the first one if the the inputted values are in negative, it will heavily affect the score predicted by the model.
+  Same as the first one if the the inputted values are in negative, it will heavily affect the score predicted by the model.  
+
+
+*Day 3 - My first ever Torch/tensor model.  
+Its functuion is nothing just it just take random data and predicts.  
+Weak point :  
+  Its predicts are just random because of random data inputted, i juat wanted to create a torch model, hence this is what i spend my day on.
