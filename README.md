@@ -19,4 +19,10 @@ Weak point :
 Its functuion is nothing just it just take random data and predicts.  
 Weak point :  
   Its predicts are just random because of random data inputted,  
-i just wanted to create a torch model, hence this is what i spend my day on.
+i just wanted to create a torch model, hence this is what i spend my day on.  
+
+
+*Day 4 - Just trying to get the hang of new fuctions.  
+The codes main purposes is to utilize the "nn.Module" function properly.  
+  Weak point :  
+    It technically dont have any weak points its just unfinished.
