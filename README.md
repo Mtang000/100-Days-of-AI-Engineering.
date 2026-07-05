@@ -25,4 +25,9 @@ i just wanted to create a torch model, hence this is what i spend my day on.
 *Day 4 - Just trying to get the hang of new fuctions.  
 The codes main purposes is to utilize the "nn.Module" function properly.  
   Weak point :  
-    It technically dont have any weak points its just unfinished.
+    It technically dont have any weak points its just unfinished.  
+
+
+*Day 5 - Updated the Day 4 code.  
+Now the code predicts the data 200 times to minimize the error. Whne the user inputs the hours it now shows the pridicted score.  
+Weak point : Still the same problem, if the user inputs a negative value it will prideict and give negative value.  
