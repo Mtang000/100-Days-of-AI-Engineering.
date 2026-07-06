@@ -31,3 +31,8 @@ The codes main purposes is to utilize the "nn.Module" function properly.
 *Day 5 - Updated the Day 4 code.  
 Now the code predicts the data 200 times to minimize the error. Whne the user inputs the hours it now shows the pridicted score.  
 Weak point : Still the same problem, if the user inputs a negative value it will prideict and give negative value.  
+
+
+*Day 6 - Created a New model with Two hidden layers.  
+Advancing into multi-layers model.  
+Weak point : It doesn't take any data at this point so the output will be random.  
