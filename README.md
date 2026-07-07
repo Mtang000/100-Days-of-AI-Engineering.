@@ -36,3 +36,10 @@ Weak point : Still the same problem, if the user inputs a negative value it will
 *Day 6 - Created a New model with Two hidden layers.  
 Advancing into multi-layers model.  
 Weak point : It doesn't take any data at this point so the output will be random.  
+
+
+*Day 7 - Added some more layers and functiond to the code of Day 6.  
+Model trains in a loop for 500 times and get better and better. Now the predicted score also depend on another variable coffee's consumed.  
+Weak point : Same as the others, if provided with wrong input data the model doesnt predicts the score within 1 to 100.  
+
+  
