@@ -45,4 +45,4 @@ Weak point : Same as the others, if provided with wrong input data the model doe
   
 *Day 8 - Updated the Day 7's code to user interactive.  
 Now the model trains in the loop for 500 times and the user can set both the variable ( hours study and coffe consumed ).  
-i have also added ValueError so now the weak point is fixed, it doesnt allow to enter negative or unrealistic values anymore.
+I have also added ValueError so now the weak point is fixed, it doesnt allow to enter negative or unrealistic values anymore.
