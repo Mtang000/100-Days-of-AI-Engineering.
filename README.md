@@ -45,4 +45,10 @@ Weak point : Same as the others, if provided with wrong input data the model doe
   
 *Day 8 - Updated the Day 7's code to user interactive.  
 Now the model trains in the loop for 500 times and the user can set both the variable ( hours study and coffe consumed ).  
-I have also added ValueError so now the weak point is fixed, it doesnt allow to enter negative or unrealistic values anymore.
+I have also added ValueError so now the weak point is fixed, it doesnt allow to enter negative or unrealistic values anymore.  
+Weak point : Doesnt have any.   
+
+
+*Day 9 - Real estate price predictor model.  
+The model take the data from the CSV file called house.csv ( in the github repositorie, its call data_day9 ) loop trains and predicts the price.  
+Weak point : It doesnt have any weak point but it have room for improvement for user input interaction.
