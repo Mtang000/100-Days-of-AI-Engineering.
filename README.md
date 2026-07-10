@@ -51,7 +51,8 @@ Weak point : Doesnt have any.
 
 *Day 9 - Real estate price predictor model.  
 The model take the data from the CSV file called house.csv ( in the github repositorie, its call data_day9 ) loop trains and predicts the price.  
-Weak point : It doesnt have any weak point but it have room for improvement for user input interaction.  
+Weak point : It doesnt have any weak point but it have room for improvement for user input interaction.    
+
 
 
 (This had taken more time then i anticipated, i usally upload the coded py file at 2:00 pm but this took an entire DAY, Its 12:28 am of the next day. )  
