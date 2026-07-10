@@ -51,4 +51,10 @@ Weak point : Doesnt have any.
 
 *Day 9 - Real estate price predictor model.  
 The model take the data from the CSV file called house.csv ( in the github repositorie, its call data_day9 ) loop trains and predicts the price.  
-Weak point : It doesnt have any weak point but it have room for improvement for user input interaction.
+Weak point : It doesnt have any weak point but it have room for improvement for user input interaction.  
+
+
+(This had taken more time then i anticipated, i usally upload the coded py file at 2:00 pm but this took an entire DAY, Its 12:28 am of the next day. )  
+*Day 10 - Model identifying human hand written numbers.  
+So the model cant see in 2D so all the image pixle was converted in 1D array, then the model trains on MNIST files data and applise that to predict the number.  
+Weak point : Its too late so it is substantially finish, it currently only checks the number 7. Hopefully in the morning i would add some users interaction in the code.
