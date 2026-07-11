@@ -58,4 +58,10 @@ Weak point : It doesnt have any weak point but it have room for improvement for 
 (This had taken more time then i anticipated, i usally upload the coded py file at 2:00 pm but this took an entire DAY, Its 12:28 am of the next day. )  
 *Day 10 - Model identifying human hand written numbers.  
 So the model cant see in 2D so all the image pixle was converted in 1D array, then the model trains on MNIST files data and applise that to predict the number.  
-Weak point : Its too late so it is substantially finish, it currently only checks the number 7. Hopefully in the morning i would add some users interaction in the code.
+Weak point : Its too late so it is substantially finish, it currently only checks the number 7. Hopefully in the morning i would add some users interaction in the code.  
+
+
+*Day 11 - Updated the Day 10 code.  
+After constantly sitting in the same place for like nearly 3-4 hours the code is updated.  
+Now the code asks the user for the image number ( 1 to 9999 ) then prints the image in the terminal with the actual number and then shows the AI's predicted number.  
+Weak point : It doesnt have any. If the image number is typed by the user incorrectly it will raise a ValueError and asks again. To exit you simply type 'quit' in the terminal and the loop breaks.
