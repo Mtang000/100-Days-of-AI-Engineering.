@@ -30,41 +30,54 @@ The codes main purposes is to utilize the "nn.Module" function properly.
 
 *Day 5 - Updated the Day 4 code.  
 Now the code predicts the data 200 times to minimize the error. Whne the user inputs the hours it now shows the pridicted score.  
-Weak point : Still the same problem, if the user inputs a negative value it will prideict and give negative value.  
+Weak point :  
+  Still the same problem, if the user inputs a negative value it will prideict and give negative value.  
 
 
 *Day 6 - Created a New model with Two hidden layers.  
 Advancing into multi-layers model.  
-Weak point : It doesn't take any data at this point so the output will be random.  
+Weak point :  
+  It doesn't take any data at this point so the output will be random.  
 
 
 *Day 7 - Added some more layers and functiond to the code of Day 6.  
 Model trains in a loop for 500 times and get better and better. Now the predicted score also depend on another variable coffee's consumed.  
-Weak point : Same as the others, if provided with wrong input data the model doesnt predicts the score within 1 to 100.  
+Weak point :  
+  Same as the others, if provided with wrong input data the model doesnt predicts the score within 1 to 100.  
 
   
 *Day 8 - Updated the Day 7's code to user interactive.  
 Now the model trains in the loop for 500 times and the user can set both the variable ( hours study and coffe consumed ).  
 I have also added ValueError so now the weak point is fixed, it doesnt allow to enter negative or unrealistic values anymore.  
-Weak point : Doesnt have any.   
+Weak point :  
+  Doesnt have any.   
 
 
 *Day 9 - Real estate price predictor model.  
 The model take the data from the CSV file called house.csv ( in the github repositorie, its call data_day9 ) loop trains and predicts the price.  
-Weak point : It doesnt have any weak point but it have room for improvement for user input interaction.    
+Weak point :   
+  It doesnt have any weak point but it have room for improvement for user input interaction.    
 
 
 
 (This had taken more time then i anticipated, i usally upload the coded py file at 2:00 pm but this took an entire DAY, Its 12:28 am of the next day. )  
 *Day 10 - Model identifying human hand written numbers.  
 So the model cant see in 2D so all the image pixle was converted in 1D array, then the model trains on MNIST files data and applise that to predict the number.  
-Weak point : Its too late so it is substantially finish, it currently only checks the number 7. Hopefully in the morning i would add some users interaction in the code.  
+Weak point :  
+  Its too late so it is substantially finish, it currently only checks the number 7. Hopefully in the morning i would add some users interaction in the code.  
 
 
 *Day 11 - Updated the Day 10 code.  
 After constantly sitting in the same place for like nearly 3-4 hours the code is updated.  
 Now the code asks the user for the image number ( 1 to 9999 ) then prints the image in the terminal with the actual number and then shows the AI's predicted number.  
-Weak point : It doesnt have any. If the image number is typed by the user incorrectly it will raise a ValueError and asks again. To exit you simply type 'quit' in the terminal and the loop breaks.   
+Weak point :  
+  It doesnt have any. If the image number is typed by the user incorrectly it will raise a ValueError and asks again. To exit you simply type 'quit' in the terminal and the loop breaks.   
 
 
-( Note : i just remaned all the .py files with the readme and the day9 csv file too because the github was sorting them incorrectly )
+( Note : i just remaned all the .py files with the readme and the day9 csv file too because the github was sorting them incorrectly )  
+
+
+*Day 12 - Model recommending with custom embedding layers.  
+Model recommends base on the data provided and trains in loops for 200 times to minimize the error then predicts what it thinks is best.  
+weak point :  
+  If a completely new user enters the platform with zero historical ratings, the model cannot generate an accuratly predict.
