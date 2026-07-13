@@ -80,4 +80,10 @@ Weak point :
 *Day 12 - Model recommending with custom embedding layers.  
 Model recommends base on the data provided and trains in loops for 200 times to minimize the error then predicts what it thinks is best.  
 weak point :  
-  If a completely new user enters the platform with zero historical ratings, the model cannot generate an accuratly predict.
+  If a completely new user enters the platform with zero historical ratings, the model cannot generate an accuratly predict.  
+
+
+  *Day 13 - Model predicts the nature of the sentence.  
+  Model trains on specific word pattern that are coverted into mathematical tensor, and feed it into a simple neural network.  
+  Weak point :  
+    It doesnt have weak points but there still is room for improvement like add more words into its vocabulary.
