@@ -86,4 +86,10 @@ weak point :
   *Day 13 - Model predicts the nature of the sentence.  
   Model trains on specific word pattern that are coverted into mathematical tensor, and feed it into a simple neural network.  
   Weak point :  
-    It doesnt have weak points but there still is room for improvement like add more words into its vocabulary.
+    It doesnt have weak points but there still is room for improvement like add more words into its vocabulary.  
+
+
+  *Day 14 - Bigram Language Model.  
+  Model looks at a word and tries to predict very next word.  
+  Weak point :  
+    I have not created a larger data base in this model so it is kinda limiting.
