@@ -92,4 +92,10 @@ weak point :
   *Day 14 - Bigram Language Model.  
   Model looks at a word and tries to predict very next word.  
   Weak point :  
-    I have not created a larger data base in this model so it is kinda limiting.
+    I have not created a larger data base in this model so it is kinda limiting.  
+
+
+  *Day 15 - Model Predicts Humans nexts number.  
+  Model trains on the user input and adapts in real time, then predicts.  
+  Weak point :  
+    It's predicts kinda useless because it predicts before the user input so the user can always change the input.
