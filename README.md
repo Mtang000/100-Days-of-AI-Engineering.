@@ -98,4 +98,10 @@ weak point :
   *Day 15 - Model Predicts Humans nexts number.  
   Model trains on the user input and adapts in real time, then predicts.  
   Weak point :  
-    It's predicts kinda useless because it predicts before the user input so the user can always change the input.
+    It's predicts kinda useless because it predicts before the user input so the user can always change the input.  
+
+
+  *Day 16 - Multi-Class Softmax Routing baseed on human sentences.  
+  Model trains on the human sentences and calculate three possibility to predict.  
+  Weak point :  
+    It doesnt have any weak point but its very limiting.
