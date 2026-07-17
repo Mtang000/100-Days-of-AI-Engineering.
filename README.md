@@ -104,4 +104,10 @@ weak point :
   *Day 16 - Multi-Class Softmax Routing baseed on human sentences.  
   Model trains on the human sentences and calculate three possibility to predict.  
   Weak point :  
-    It doesnt have any weak point but its very limiting.
+    It doesnt have any weak point but its very limiting.  
+
+
+  *Day 17 - Cosine Similarity model.  
+The model calculates the mathematical relationship between words by comparing their pre-defined vector coordinates, regardless of how they are spelled.  
+Weak point :  
+  It is limited by a static dictionary, if the user enter words that are not already coded in the model then it treats them like unrelated terms.
