@@ -110,4 +110,10 @@ weak point :
   *Day 17 - Cosine Similarity model.  
 The model calculates the mathematical relationship between words by comparing their pre-defined vector coordinates, regardless of how they are spelled.  
 Weak point :  
-  It is limited by a static dictionary, if the user enter words that are not already coded in the model then it treats them like unrelated terms.
+  It is limited by a static dictionary, if the user enter words that are not already coded in the model then it treats them like unrelated terms.  
+
+
+*Day 18 - Recurrent Neural Networks.  
+The model reads a sequence of words and decide if a message is Spam (1) or a normal message/Ham (0).  
+Weak point :  
+  Its is great at short sentences but it lacks the processing ability for longer sentences. 
