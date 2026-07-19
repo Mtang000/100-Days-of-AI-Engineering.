@@ -116,4 +116,10 @@ Weak point :
 *Day 18 - Recurrent Neural Networks.  
 The model reads a sequence of words and decide if a message is Spam (1) or a normal message/Ham (0).  
 Weak point :  
-  Its is great at short sentences but it lacks the processing ability for longer sentences. 
+  Its is great at short sentences but it lacks the processing ability for longer sentences.   
+
+
+Day 19 - The Query, Key, Value Engine.  
+The model instead of reading a sentence one word at a time, it looks at the entire sentence at once and mathematically compares every word to every other word, allowing it to understand context by assigning importance weights to those values.  
+Weak point :  
+  It uses a tiny, dictionary of four words and does not actually "learn" from data, so it cannot understand any sentences outside of its pre-defined.
