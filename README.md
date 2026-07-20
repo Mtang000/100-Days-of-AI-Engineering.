@@ -122,4 +122,10 @@ Weak point :
 Day 19 - The Query, Key, Value Engine.  
 The model instead of reading a sentence one word at a time, it looks at the entire sentence at once and mathematically compares every word to every other word, allowing it to understand context by assigning importance weights to those values.  
 Weak point :  
-  It uses a tiny, dictionary of four words and does not actually "learn" from data, so it cannot understand any sentences outside of its pre-defined.
+  It uses a tiny, dictionary of four words and does not actually "learn" from data, so it cannot understand any sentences outside of its pre-defined.  
+
+
+*Day 20 - Transformer block.  
+The model uses Residual Connections and Layer Normalization to keep the math stable, allowing data to flow through safely without degrading.  
+Weak point :  
+  This code has no concept of word order, so there can be misunderstanding quite often.
