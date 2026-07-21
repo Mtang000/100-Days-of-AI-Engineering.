@@ -128,4 +128,10 @@ Weak point :
 *Day 20 - Transformer block.  
 The model uses Residual Connections and Layer Normalization to keep the math stable, allowing data to flow through safely without degrading.  
 Weak point :  
-  This code has no concept of word order, so there can be misunderstanding quite often.
+  This code has no concept of word order, so there can be misunderstanding quite often.  
+
+
+*Day 21 - The positional encoder.  
+It solves the previous day code problem by give all word a value for its position in the sentence.  
+Weak point :   
+  It doesnt have any, but it can improve a lot as there is heavily maths used so the code is not easily understandable.
