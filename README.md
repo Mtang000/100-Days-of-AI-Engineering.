@@ -134,4 +134,10 @@ Weak point :
 *Day 21 - The positional encoder.  
 It solves the previous day code problem by give all word a value for its position in the sentence.  
 Weak point :   
-  It doesnt have any, but it can improve a lot as there is heavily maths used so the code is not easily understandable.
+  It doesnt have any, but it can improve a lot as there is heavily maths used so the code is not easily understandable.  
+
+
+*Day 22 - Next word predictor.  
+The model takes a row of words converts them into digital coordinates then adds a time-stamp to locate words order. In the end, it predicts which word makes the most sense to come next in a sentence.  
+Weak point :  
+  It is not fully finished, it needs a blinder for the next words as now the model unintentionally cheats by looking at the next word.
