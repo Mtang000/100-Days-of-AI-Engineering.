@@ -140,4 +140,10 @@ Weak point :
 *Day 22 - Next word predictor.  
 The model takes a row of words converts them into digital coordinates then adds a time-stamp to locate words order. In the end, it predicts which word makes the most sense to come next in a sentence.  
 Weak point :  
-  It is not fully finished, it needs a blinder for the next words as now the model unintentionally cheats by looking at the next word.
+  It is not fully finished, it needs a blinder for the next words as now the model unintentionally cheats by looking at the next word.  
+
+
+*Day 23 - Blinder.  
+It doesnt let the model cheat as it was doing in the previous code.  
+Weak point :  
+  It misunderstands sometimes if the sentence meaning is at the end.
