@@ -146,4 +146,10 @@ Weak point :
 *Day 23 - Blinder.  
 It doesnt let the model cheat as it was doing in the previous code.  
 Weak point :  
-  It misunderstands sometimes if the sentence meaning is at the end.
+  It misunderstands sometimes if the sentence meaning is at the end.  
+
+
+*Day 24 - Training LLM.  
+It trains on a sentence and generates the sentence on what promt was given.  
+Weak point :  
+  As there is quite literally nothing to train on except of one sentence, if the promt is a different word then it malfunctions.
