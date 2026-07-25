@@ -152,4 +152,10 @@ Weak point :
 *Day 24 - Training LLM.  
 It trains on a sentence and generates the sentence on what promt was given.  
 Weak point :  
-  As there is quite literally nothing to train on except of one sentence, if the promt is a different word then it malfunctions.
+  As there is quite literally nothing to train on except of one sentence, if the promt is a different word then it malfunctions.  
+
+
+*Day 25 - Temperature and Sampling.  
+I just wanted to learn about temp and sampling,so yeah i added it to the code. In short it is lottery, as the temp increase the odds decrease.  
+Weak point :  
+  As i said earlier, if the temp is too high then the picked word will be fully random.
