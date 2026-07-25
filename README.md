@@ -68,7 +68,7 @@ Weak point :
 
 
 *Day 11 - Updated the Day 10 code.  
-After constantly sitting in the same place for like nearly 3-4 hours the code is updated.  
+(After constantly sitting in the same place for like nearly 3-4 hours the code is updated.)  
 Now the code asks the user for the image number ( 1 to 9999 ) then prints the image in the terminal with the actual number and then shows the AI's predicted number.  
 Weak point :  
   It doesnt have any. If the image number is typed by the user incorrectly it will raise a ValueError and asks again. To exit you simply type 'quit' in the terminal and the loop breaks.   
