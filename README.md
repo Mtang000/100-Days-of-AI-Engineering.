@@ -158,4 +158,10 @@ Weak point :
 *Day 25 - Temperature and Sampling.  
 I just wanted to learn about temp and sampling,so yeah i added it to the code. In short it is lottery, as the temp increase the odds decrease.  
 Weak point :  
-  As i said earlier, if the temp is too high then the picked word will be fully random.
+  As i said earlier, if the temp is too high then the picked word will be fully random.  
+
+
+*Day 26 - Top-K and Top-P.  
+Top-K filters outs the top words from rest and Top-P combines the top words confidence to hit the targeted percentage.  
+Weak point :  
+  If the Top-K value is too low then the model will become a repetitive program.
