@@ -164,4 +164,11 @@ Weak point :
 *Day 26 - Top-K and Top-P.  
 Top-K filters outs the top words from rest and Top-P combines the top words confidence to hit the targeted percentage.  
 Weak point :  
-  If the Top-K value is too low then the model will become a repetitive program.
+  If the Top-K value is too low then the model will become a repetitive program.  
+
+
+*Day 27 - Fine-Tuner.  
+It is just a chatbot which trains on pre-questions and their answers, to provede assistance.  
+Weak point :  
+  As i said earlier, the model needs the data before asking question to it. You would have to update it's data and train it everytime if you want to add sometihing new.  
+  Plus it is still partially incompelet, it stil need to answer the question that it currently just understands.
