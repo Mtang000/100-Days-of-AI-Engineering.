@@ -171,4 +171,10 @@ Weak point :
 It is just a chatbot which trains on pre-questions and their answers, to provede assistance.  
 Weak point :  
   As i said earlier, the model needs the data before asking question to it. You would have to update it's data and train it everytime if you want to add sometihing new.  
-  Plus it is still partially incompelet, it stil need to answer the question that it currently just understands.
+  Plus it is still partially incompelet, it stil need to answer the question that it currently just understands.  
+
+
+*Day 28 - Retrieval-Augmented Generation.  
+I wanted to try RAG for my LLM as the RAG make the AI see in the databse for answers, it can be very sensitive as the model's response solely depend on the database.  
+Weak point :  
+  The model is not working as i expected, there are data provided but it doesnt recognises it. Hopewfully i can fix it in tomorrow's code.
