@@ -177,4 +177,10 @@ Weak point :
 *Day 28 - Retrieval-Augmented Generation.  
 I wanted to try RAG for my LLM as the RAG make the AI see in the databse for answers, it can be very sensitive as the model's response solely depend on the database.  
 Weak point :  
-  The model is not working as i expected, there are data provided but it doesnt recognises it. Hopewfully i can fix it in tomorrow's code.
+  The model is not working as i expected, there are data provided but it doesnt recognises it. Hopewfully i can fix it in tomorrow's code.  
+
+
+*Day 29 - Updated the Day 28's code.  
+I fixed the "no match" and also added user input in the code, now the the user can type what they want to know ( even though its very limiting )  
+Weeak point :  
+  The code is just a little updated not changed so it has the same weeak point as the Day 28 code.
