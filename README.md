@@ -183,4 +183,10 @@ Weak point :
 *Day 29 - Updated the Day 28's code.  
 I fixed the "no match" and also added user input in the code, now the the user can type what they want to know ( even though its very limiting )  
 Weeak point :  
-  The code is just a little updated not changed so it has the same weeak point as the Day 28 code.
+  The code is just a little updated not changed so it has the same weak point as the Day 28 code.  
+
+
+*Day 30 - React Framework.  
+Created an AI agent that can use calculator if it is required or needed and returns the answers.  
+Weak point :  
+  It can get in infinite looping as the code tells the AI to use calculator if needed ( if the question is a mathematical question then every time ) and the calculator tool is not working then it gets stuck in a loop.
