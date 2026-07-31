@@ -189,4 +189,10 @@ Weeak point :
 *Day 30 - React Framework.  
 Created an AI agent that can use calculator if it is required or needed and returns the answers.  
 Weak point :  
-  It can get in infinite looping as the code tells the AI to use calculator if needed ( if the question is a mathematical question then every time ) and the calculator tool is not working then it gets stuck in a loop.
+  It can get in infinite looping as the code tells the AI to use calculator if needed ( if the question is a mathematical question then every time ) and the calculator tool is not working then it gets stuck in a loop.  
+
+
+Day 31 - Vision Transformers.  
+Same as I did in the Day 10 and 11, it convert the 2D image into 1D line to understand the images.  
+Weak point :  
+  It doesnt have any, but if an object is far away and is also split into two pixel then the model takes a lot longer to identify that object.
