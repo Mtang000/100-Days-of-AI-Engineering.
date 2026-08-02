@@ -201,4 +201,10 @@ Weak point :
 *Day 32 - The Multimodal Bridge.  
 I learned this from Youtube and this pretty simple, it breaks the image as the previous day code and also limits the search on the image according to the questions asked.  
 Weak point :  
-  The resolution of the image can affect the time the processing takes to answer the question.
+  The resolution of the image can affect the time the processing takes to answer the question.  
+
+
+*Day 33 - The Diffusion Engine.  
+The diffusion engine adds static noise and the model have to reverse the process by removing the noise ( the model doesnt know what the image looks like. )  
+Weak point :  
+  The image quality can be affected by the complexity of the images and can also take more time to processs.
