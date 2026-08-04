@@ -207,4 +207,10 @@ Weak point :
 *Day 33 - The Diffusion Engine.  
 The diffusion engine adds static noise and the model have to reverse the process by removing the noise ( the model doesnt know what the image looks like. )  
 Weak point :  
-  The image quality can be affected by the complexity of the images and can also take more time to processs.
+  The image quality can be affected by the complexity of the images and can also take more time to processs.  
+
+
+*Day 34 - The Conditioning Engine.  
+Its the guide to how to generate an image according to its promt.  
+Weak point :  
+  It is limited by its vocabulary, if the promt is something different from the database then it totally ignores or generate something random.
