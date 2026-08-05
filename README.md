@@ -213,4 +213,10 @@ Weak point :
 *Day 34 - The Conditioning Engine.  
 Its the guide to how to generate an image according to its promt.  
 Weak point :  
-  It is limited by its vocabulary, if the promt is something different from the database then it totally ignores or generate something random.
+  It is limited by its vocabulary, if the promt is something different from the database then it totally ignores or generate something random.  
+
+
+*Day 35 - The LoAR.  
+To teach old AI new things it needs to be retrained, but LoAR creates a small model and then trains it on the new things and adds it to the old AI.  
+Weak point :  
+  When LoAR creates a small side model to teach, it can only teach small tasks as its only a side model.
