@@ -225,4 +225,10 @@ Weak point :
 *Day 36 - Spectrogram.  
 So this code make the audio mapped out on an imagen, making it easier for AI to train.  
 Weak point :  
-  It only prints the high pitches, low pitches, and volume over time. It doesnt print phase ( Phase tells you the exact microscopic timing of the sound waves )
+  It only prints the high pitches, low pitches, and volume over time. It doesnt print phase ( Phase tells you the exact microscopic timing of the sound waves )  
+
+
+*Day 37 - Compressing.  
+I wanted to make this model long ago, but anyway it cuts the decimals into whole simple number. It does reduces the pression but it allows to reduce the size of the model, so it can be shared and run easily.  
+Weak point :  
+  As I said earlier, compressing reduces pression and if compressed to much then it can break the model completely. 
