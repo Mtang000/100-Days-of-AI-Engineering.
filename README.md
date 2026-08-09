@@ -237,4 +237,10 @@ Weak point :
 *Day 38 - Key-Value Caching.  
 It creates a saved cache in the memory of its previous work, if continuing from the same work it it doesnt restart and uses the saved cache to resume. Therefore I wanted to try this as its quite fast.  
 Weak point :  
-  It saves the work in the memory and if the work is too massive then it will affect the device as well as might even crash it if not careful. 
+  It saves the work in the memory and if the work is too massive then it will affect the device as well as might even crash it if not careful.  
+
+
+*Day 39 - Window mask.  
+This model only looks at the small chunk of recent text ( 500/10,000 ), preventing the computer from running of memory while processing.  
+Weak point :  
+  The model cant look back, so if there was info on the previous page and ask the model about it in the next page it will hallucinate or fail to answer.
