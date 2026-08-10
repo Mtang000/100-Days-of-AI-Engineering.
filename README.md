@@ -243,4 +243,10 @@ Weak point :
 *Day 39 - Window mask.  
 This model only looks at the small chunk of recent text ( 500/10,000 ), preventing the computer from running of memory while processing.  
 Weak point :  
-  The model cant look back, so if there was info on the previous page and ask the model about it in the next page it will hallucinate or fail to answer.
+  The model cant look back, so if there was info on the previous page and ask the model about it in the next page it will hallucinate or fail to answer.  
+
+
+*Day 40 - The Expert Router.  
+The model splits the brain into smaller and specialized section. When the user asks a question, the router selects the 2 specific section that are best suited.  
+Weak point :  
+  Even if the model's 75% brain is asleep it does take 100% of the files into memory, so it doesnt save any RAM.
