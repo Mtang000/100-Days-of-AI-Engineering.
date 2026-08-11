@@ -249,4 +249,10 @@ Weak point :
 *Day 40 - The Expert Router.  
 The model splits the brain into smaller and specialized section. When the user asks a question, the router selects the 2 specific section that are best suited.  
 Weak point :  
-  Even if the model's 75% brain is asleep it does take 100% of the files into memory, so it doesnt save any RAM.
+  Even if the model's 75% brain is asleep it does take 100% of the files into memory, so it doesnt save any RAM.  
+
+
+*Day 41 - The Judge.  
+This model tracks another model and reward or punish based on the output. If the output is toxic it punishes the model and teaches it to act polite.  
+Weak point :  
+  The judge is very fragile, it also requires to run two neural networks simultaneously. If the sentence is phrase to look good but it is violent then the judge misunderstands it.
