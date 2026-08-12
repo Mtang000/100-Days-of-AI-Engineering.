@@ -255,4 +255,10 @@ Weak point :
 *Day 41 - The Judge.  
 This model tracks another model and reward or punish based on the output. If the output is toxic it punishes the model and teaches it to act polite.  
 Weak point :  
-  The judge is very fragile, it also requires to run two neural networks simultaneously. If the sentence is phrase to look good but it is violent then the judge misunderstands it.
+  The judge is very fragile, it also requires to run two neural networks simultaneously. If the sentence is phrase to look good but it is violent then the judge misunderstands it.  
+
+
+*Day 42 - Direct Preference Optimization.  
+It shows the model a good answer and a bad answer side by side and the math forces the model to favor the good answer while suppressing the bad one .  
+Weak point :  
+  It can take a lot of memory as if the model is X amount then it would require 2X amount in memory simultaneously.
