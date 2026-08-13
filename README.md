@@ -261,4 +261,10 @@ Weak point :
 *Day 42 - Direct Preference Optimization.  
 It shows the model a good answer and a bad answer side by side and the math forces the model to favor the good answer while suppressing the bad one .  
 Weak point :  
-  It can take a lot of memory as if the model is X amount then it would require 2X amount in memory simultaneously.
+  It can take a lot of memory as if the model is X amount then it would require 2X amount in memory simultaneously.  
+
+
+*Day 43 - State Space Model.  
+In short it doesnt increase the memory usage while feeding the model new words.  
+Weak point :  
+  The model wont keep words that it thinks are useless or isnt important enough to keep in the memory box.
