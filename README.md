@@ -267,4 +267,10 @@ Weak point :
 *Day 43 - State Space Model.  
 In short it doesnt increase the memory usage while feeding the model new words.  
 Weak point :  
-  The model wont keep words that it thinks are useless or isnt important enough to keep in the memory box.
+  The model wont keep words that it thinks are useless or isnt important enough to keep in the memory box.  
+
+
+*Day 44 - Vector Search.  
+Another search/predict model but i found this on reddit and its little different. It searches by meaning rather than by exact words, it mathematically translates paragraphs into coordinates on a massive graph to search.  
+Weak point :  
+  It is terrible at finding exact, specific numbers or IDs.
