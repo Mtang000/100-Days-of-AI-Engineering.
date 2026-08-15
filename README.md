@@ -1,4 +1,4 @@
-# 100-Days-of-AI-Engineering.
+_# 100-Days-of-AI-Engineering.
 I will be documenting this journey with hopefully daily updates.    
 
   
@@ -273,4 +273,10 @@ Weak point :
 *Day 44 - Vector Search.  
 Another search/predict model but i found this on reddit and its little different. It searches by meaning rather than by exact words, it mathematically translates paragraphs into coordinates on a massive graph to search.  
 Weak point :  
-  It is terrible at finding exact, specific numbers or IDs.
+  It is terrible at finding exact, specific numbers or IDs.  
+
+
+*Day 45 - The Two-Tower Engine.  
+This model uses two separate neural networks to turn question and documents into numbers and train it by pulling correct answers closer and pushing wrong answer far away.  
+Weak point :  
+  As the two neural networks are completely separately, this causes the AI to miss subtle details and complex word relationships.
