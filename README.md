@@ -279,4 +279,9 @@ Weak point :
 *Day 45 - The Two-Tower Engine.  
 This model uses two separate neural networks to turn question and documents into numbers and train it by pulling correct answers closer and pushing wrong answer far away.  
 Weak point :  
-  As the two neural networks are completely separately, this causes the AI to miss subtle details and complex word relationships.
+  As the two neural networks are completely separately, this causes the AI to miss subtle details and complex word relationships.  
+
+*Day 46 - Cross Encoder.  
+It puts given question and the document together into one sentence and feeds it to the AI, this process lets the AI see exactly how the words in given question relate to the words in the document.  
+Weak point :  
+  It is incredibly slow, for example if wanting to search database of 1 million documents, a Cross-Encoder has to run 1 million complete neural network calculations from scratch.  
