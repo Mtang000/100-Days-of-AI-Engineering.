@@ -285,3 +285,9 @@ Weak point :
 It puts given question and the document together into one sentence and feeds it to the AI, this process lets the AI see exactly how the words in given question relate to the words in the document.  
 Weak point :  
   It is incredibly slow, for example if wanting to search database of 1 million documents, a Cross-Encoder has to run 1 million complete neural network calculations from scratch.  
+
+
+*Day 47 - TransE.  
+It is basically instead of sorting messy paragraphs of text, it stores the exact facts as connected dots, this makes it really fast.  
+Weak point :  
+  As I said earlier it saves the exact words while connecting, if the words are emotional or defining a feeling then it can get slow and can also malfunction. 
