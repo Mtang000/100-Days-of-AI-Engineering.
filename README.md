@@ -290,4 +290,10 @@ Weak point :
 *Day 47 - TransE.  
 It is basically instead of sorting messy paragraphs of text, it stores the exact facts as connected dots, this makes it really fast.  
 Weak point :  
-  As I said earlier it saves the exact words while connecting, if the words are emotional or defining a feeling then it can get slow and can also malfunction. 
+  As I said earlier it saves the exact words while connecting, if the words are emotional or defining a feeling then it can get slow and can also malfunction.  
+
+
+*Day 48 - The Dropout Engine.  
+I didnt know that Dropout feature was already built in Pytorch so I had to try it. So it basically make the model to learn and prevents just memorizing by adding randomness.  
+Weak point :  
+  It didnt had any weakness but this process is time consuming and takes more computing power.
