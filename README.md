@@ -296,4 +296,10 @@ Weak point :
 *Day 48 - The Dropout Engine.  
 I didnt know that Dropout feature was already built in Pytorch so I had to try it. So it basically make the model to learn and prevents just memorizing by adding randomness.  
 Weak point :  
-  It didnt had any weakness but this process is time consuming and takes more computing power.
+  It didnt had any weakness but this process is time consuming and takes more computing power.  
+
+
+*Day 49 - Temperature and Top-P.  
+Temperature increase the probability of picking the words that is not top 1, this makes less repetitive and more creative. Top-P acts as a safety net by completely removing absolute worst words.  
+Weak point :  
+  If the Temperature is set too high then it spits out random letters and hallucinated garbage, and if set too low then the model becomes incredibly repetitive.
