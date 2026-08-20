@@ -302,4 +302,10 @@ Weak point :
 *Day 49 - Temperature and Top-P.  
 Temperature increase the probability of picking the words that is not top 1, this makes less repetitive and more creative. Top-P acts as a safety net by completely removing absolute worst words.  
 Weak point :  
-  If the Temperature is set too high then it spits out random letters and hallucinated garbage, and if set too low then the model becomes incredibly repetitive.
+  If the Temperature is set too high then it spits out random letters and hallucinated garbage, and if set too low then the model becomes incredibly repetitive.  
+
+
+*Day 50 - Transformer.  
+It generates words by turning text into math and then figuring out context. It is nothing very interesting but i wanted to try it out.  
+Weak point :  
+  It only generates one word at a time, so to generate a full sentence it would generate one word then redo all the process for the second word and for all the remaining words.
