@@ -308,4 +308,10 @@ Weak point :
 *Day 50 - Transformer.  
 It generates words by turning text into math and then figuring out context. It is nothing very interesting but i wanted to try it out.  
 Weak point :  
-  It only generates one word at a time, so to generate a full sentence it would generate one word then redo all the process for the second word and for all the remaining words.
+  It only generates one word at a time, so to generate a full sentence it would generate one word then redo all the process for the second word and for all the remaining words.  
+
+
+*Day 51 - Multimodel.  
+It just converts the image into a mathematical language of text.  
+Weak point :  
+  It can miss some details from the image as it is compressing the image.
