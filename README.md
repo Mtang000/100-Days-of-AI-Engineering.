@@ -314,4 +314,10 @@ Weak point :
 *Day 51 - Multimodel.  
 It just converts the image into a mathematical language of text.  
 Weak point :  
-  It can miss some details from the image as it is compressing the image.
+  It can miss some details from the image as it is compressing the image.  
+
+
+*Day 52 - Beam Search.  
+It generates 3 to 5 sentences and explore them at the same time, by this the final sentence always make grammatical sense from beginning to end.  
+Weak point :  
+  It generates multiple sentences at the same time, making it very power hungry.
