@@ -320,4 +320,10 @@ Weak point :
 *Day 52 - Beam Search.  
 It generates 3 to 5 sentences and explore them at the same time, by this the final sentence always make grammatical sense from beginning to end.  
 Weak point :  
-  It generates multiple sentences at the same time, making it very power hungry.
+  It generates multiple sentences at the same time, making it very power hungry.  
+
+
+*Day 53 - Gradient Accumulation.  
+It saves memory by training a model in small mini batches.  
+Weak point :  
+  It can take longer than usual as it trains a small batch and clears the GPU memory and starts train.
