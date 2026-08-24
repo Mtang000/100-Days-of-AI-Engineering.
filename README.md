@@ -326,4 +326,10 @@ Weak point :
 *Day 53 - Gradient Accumulation.  
 It saves memory by training a model in small mini batches.  
 Weak point :  
-  It can take longer than usual as it trains a small batch and clears the GPU memory and starts train.
+  It can take longer than usual as it trains a small batch and clears the GPU memory and starts train.  
+
+
+*Day 54 - Mixed Precision.  
+To save time time the AMP ( Automatic Mixed Precision ) uses FP16 for the heavy lifting, but at the end switches back to highly precise math FP32 to save the final answer.  
+Weak point :  
+  If the data provided is not cleared or if the values are so small, then the computer will rounds then down to absolute zero ( Gradient Underflow ), making model stop learning and breaks it.
