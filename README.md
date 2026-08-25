@@ -332,4 +332,10 @@ Weak point :
 *Day 54 - Mixed Precision.  
 To save time time the AMP ( Automatic Mixed Precision ) uses FP16 for the heavy lifting, but at the end switches back to highly precise math FP32 to save the final answer.  
 Weak point :  
-  If the data provided is not cleared or if the values are so small, then the computer will rounds then down to absolute zero ( Gradient Underflow ), making model stop learning and breaks it.
+  If the data provided is not cleared or if the values are so small, then the computer will rounds then down to absolute zero ( Gradient Underflow ), making model stop learning and breaks it.  
+
+
+*Day 55 - DDP.  
+DDP allows users to wire multiple computers together to train one AI.  
+Weak point :  
+It can take very long time if the internet is unstable or slow.
