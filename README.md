@@ -338,4 +338,10 @@ Weak point :
 *Day 55 - DDP.  
 DDP allows users to wire multiple computers together to train one AI.  
 Weak point :  
-It can take very long time if the internet is unstable or slow.
+It can take very long time if the internet is unstable or slow.  
+
+
+*Day 56 - Speculative Decoding.  
+It divides the model into 2 separate models ( one small and one large ), the small model generates word and the large model judges them to include into the sentence.  
+Weak point :  
+  If the small model is not capable enough then the large model will always be in a loop of rejecting words provided by the small model.
