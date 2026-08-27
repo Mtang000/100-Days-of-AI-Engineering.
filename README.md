@@ -344,4 +344,10 @@ It can take very long time if the internet is unstable or slow.
 *Day 56 - Speculative Decoding.  
 It divides the model into 2 separate models ( one small and one large ), the small model generates word and the large model judges them to include into the sentence.  
 Weak point :  
-  If the small model is not capable enough then the large model will always be in a loop of rejecting words provided by the small model.
+  If the small model is not capable enough then the large model will always be in a loop of rejecting words provided by the small model.  
+
+
+*Day 57 - Contrastive Language-Image Pre-training ( CLIP ).  
+It trains itself by searching the images online and learning its caption and repeating it again and again for the same image.  
+Weak point :  
+  It can and will be affected by the quality of the caption provided on internet.
