@@ -350,4 +350,10 @@ Weak point :
 *Day 57 - Contrastive Language-Image Pre-training ( CLIP ).  
 It trains itself by searching the images online and learning its caption and repeating it again and again for the same image.  
 Weak point :  
-  It can and will be affected by the quality of the caption provided on internet.
+  It can and will be affected by the quality of the caption provided on internet.  
+
+
+*Day 58 - Diffusion.  
+It slowly destroy a clear image by adding pure static. Then , it trains model to subtract noise to get the clear picture back.  
+Weak point :  
+  It will take time as the model has to subtract noise hundreds of times step by step to generate a single picture.
