@@ -356,4 +356,10 @@ Weak point :
 *Day 58 - Diffusion.  
 It slowly destroy a clear image by adding pure static. Then , it trains model to subtract noise to get the clear picture back.  
 Weak point :  
-  It will take time as the model has to subtract noise hundreds of times step by step to generate a single picture.
+  It will take time as the model has to subtract noise hundreds of times step by step to generate a single picture.  
+
+
+*Day 59 - Classifier-Free Guidance.  
+The CFG calculates the difference between an unprompted image and a prompted image, and multiplies that difference to force the model to strictly text instructed.  
+Weak point :  
+  It takes twice as much as time and power, as it is not just generating the image.
