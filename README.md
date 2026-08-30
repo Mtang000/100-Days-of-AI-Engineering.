@@ -362,4 +362,10 @@ Weak point :
 *Day 59 - Classifier-Free Guidance.  
 The CFG calculates the difference between an unprompted image and a prompted image, and multiplies that difference to force the model to strictly text instructed.  
 Weak point :  
-  It takes twice as much as time and power, as it is not just generating the image.
+  It takes twice as much as time and power, as it is not just generating the image.  
+
+
+*Day 60 - Spam Filter.  
+As the name suggest it filters spam mails by converting text to structured math and then using Naive Bayes algorithm.  
+Weak point :  
+  It is very sensitive if the spammer uses highly professional vocabulary then it wont filter it.
