@@ -368,4 +368,10 @@ Weak point :
 *Day 60 - Spam Filter.  
 As the name suggest it filters spam mails by converting text to structured math and then using Naive Bayes algorithm.  
 Weak point :  
-  It is very sensitive if the spammer uses highly professional vocabulary then it wont filter it.
+  It is very sensitive if the spammer uses highly professional vocabulary then it wont filter it.  
+
+
+*Day 61 - Sentiment.  
+It categorizes the sentences by emotional tone, by using Sentiment Analysis.  
+Weak point :  
+  It can't under stand sarcasm and cultural slang.
