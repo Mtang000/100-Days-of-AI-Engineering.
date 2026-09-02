@@ -376,8 +376,14 @@ It categorizes the sentences by emotional tone, by using Sentiment Analysis.
 Weak point :  
   It can't under stand sarcasm and cultural slang.  
 
-( Note :- I didnt had any time for today because of some personal matter, so todays code was written way before I didnt upload it so today this would have to do. )  
+( Note :- I didnt had any time for this couple of days because of some personal matter, so the codes was written way before when I started uploading but didnt uploaded them. )  
 *Day 62 - Named Entity Recognition.  
 It just use basic python script to turn messy paragraphs into clean and organized spreadsheets.  
 Weak point :  
-  Its just a python script, so the words are taken as absolute like if there is Apple as a company then if there is a sentence where Apple is mentioned as a fruit. The script wont notice the difference.
+  Its just a python script, so the words are taken as absolute like if there is Apple as a company then if there is a sentence where Apple is mentioned as a fruit. The script wont notice the difference.  
+
+
+*Day 63 - Whisper.  
+It just uses whisper ( pre-trained model ) to instantly generate subtitles.  
+Weak point :  
+  It cant generate subtitles if multiple people are talking at the same time .
