@@ -386,4 +386,10 @@ Weak point :
 *Day 63 - Whisper.  
 It just uses whisper ( pre-trained model ) to instantly generate subtitles.  
 Weak point :  
-  It cant generate subtitles if multiple people are talking at the same time .
+  It cant generate subtitles if multiple people are talking at the same time.  
+
+
+*Day 64 - Seq4Seq Cross.  
+The Seq4Seq uses two neural network, one decoder to query a encoder network at every single time step. This make the model to read most critical information to write a summary on.  
+Weak point :  
+  It will get exponentially slower as the documents get longer.
