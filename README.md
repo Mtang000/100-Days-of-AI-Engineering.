@@ -392,4 +392,10 @@ Weak point :
 *Day 64 - Seq4Seq Cross.  
 The Seq4Seq uses two neural network, one decoder to query a encoder network at every single time step. This make the model to read most critical information to write a summary on.  
 Weak point :  
-  It will get exponentially slower as the documents get longer.
+  It will get exponentially slower as the documents get longer.  
+
+
+*Day 65 - Sparse Attention.  
+It acts as crop edit option, it will restrict calculations to a fixed window instead of analyzing the entire document. This reduces the stress on the system.  
+Weak point :  
+  As stated earlier, it will be shown only a portion not the whole thing. Hence, it will not know the full concept.
