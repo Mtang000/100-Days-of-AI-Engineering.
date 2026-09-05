@@ -398,4 +398,10 @@ Weak point :
 *Day 65 - Sparse Attention.  
 It acts as crop edit option, it will restrict calculations to a fixed window instead of analyzing the entire document. This reduces the stress on the system.  
 Weak point :  
-  As stated earlier, it will be shown only a portion not the whole thing. Hence, it will not know the full concept.
+  As stated earlier, it will be shown only a portion not the whole thing. Hence, it will not know the full concept.  
+
+
+*Day 66 - Dense Retrieval.  
+RAG provides model with direct access to the documents without retraining model's neural weights.  
+Weak point :  
+  As I said earlier, the RAG fetches the document and if it fail or misunderstand data then the model will be flawed.
