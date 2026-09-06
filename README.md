@@ -404,4 +404,10 @@ Weak point :
 *Day 66 - Dense Retrieval.  
 RAG provides model with direct access to the documents without retraining model's neural weights.  
 Weak point :  
-  As I said earlier, the RAG fetches the document and if it fail or misunderstand data then the model will be flawed.
+  As I said earlier, the RAG fetches the document and if it fail or misunderstand data then the model will be flawed.  
+
+
+*Day 67- Re-Ranker.  
+It checks if a document contains answer for the asked question. Instead of turning the question and the documents into separate number and then comparing.  
+Weak point :  
+  It can be extremely slow as the model has to read the question and the document together from start to finish.
