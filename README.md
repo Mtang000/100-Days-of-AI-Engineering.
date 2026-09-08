@@ -410,4 +410,10 @@ Weak point :
 *Day 67- Re-Ranker.  
 It checks if a document contains answer for the asked question. Instead of turning the question and the documents into separate number and then comparing.  
 Weak point :  
-  It can be extremely slow as the model has to read the question and the document together from start to finish.
+  It can be extremely slow as the model has to read the question and the document together from start to finish.  
+
+
+*Day 68- Text Evaluation.  ( This was a tough concept for me to learn )  
+So it is just a scoring tool in two parts, one is BLEU that checks if the AI generated words are in the human/inputted answer and the other is ROUGE it checks if the AI words include all the human answer or not.  
+Weak point :  
+  Both metrics only count matching words, so they miss synonyms and meaning.
