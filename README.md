@@ -416,4 +416,10 @@ Weak point :
 *Day 68- Text Evaluation.  ( This was a tough concept for me to learn )  
 So it is just a scoring tool in two parts, one is BLEU that checks if the AI generated words are in the human/inputted answer and the other is ROUGE it checks if the AI words include all the human answer or not.  
 Weak point :  
-  Both metrics only count matching words, so they miss synonyms and meaning.
+  Both metrics only count matching words, so they miss synonyms and meaning.  
+
+
+*Day 69- BERT Score.  
+Instead of matching letters and characters, this model passes both human sentence and generated one through neural network to get the vector value for each word.  
+Weak point :  
+  It requires a full neural network to run, making it slow and power hungry.
