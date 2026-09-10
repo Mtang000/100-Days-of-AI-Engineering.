@@ -422,4 +422,10 @@ Weak point :
 *Day 69- BERT Score.  
 Instead of matching letters and characters, this model passes both human sentence and generated one through neural network to get the vector value for each word.  
 Weak point :  
-  It requires a full neural network to run, making it slow and power hungry.
+  It requires a full neural network to run, making it slow and power hungry.  
+
+
+*Day - Constrained Decoding.  
+Its forces a LLM to output text in a strict format. This refrains the model from generating words that would violate the required format.  
+Weak point :  
+The process requires building an external logic system that tracks the exact grammatical state of the output at every single step, making this a significantly slow process.
