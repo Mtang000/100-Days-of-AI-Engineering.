@@ -428,4 +428,10 @@ Weak point :
 *Day - Constrained Decoding.  
 Its forces a LLM to output text in a strict format. This refrains the model from generating words that would violate the required format.  
 Weak point :  
-The process requires building an external logic system that tracks the exact grammatical state of the output at every single step, making this a significantly slow process.
+The process requires building an external logic system that tracks the exact grammatical state of the output at every single step, making this a significantly slow process.  
+
+
+*Day - Re-Act Agent.  
+It just forces the model to pause and plan before it acts.  
+Weak point :  
+If the external tool returns an error message then it can get trapped in an infinite loop.
