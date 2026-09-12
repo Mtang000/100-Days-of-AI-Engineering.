@@ -434,4 +434,10 @@ The process requires building an external logic system that tracks the exact gra
 *Day - Re-Act Agent.  
 It just forces the model to pause and plan before it acts.  
 Weak point :  
-If the external tool returns an error message then it can get trapped in an infinite loop.
+If the external tool returns an error message then it can get trapped in an infinite loop.  
+
+
+*Day 72 - Memory Buffer.  
+This buffer allows the model to hold long conversation, as the model has a limit on how much it can read text at once.  
+Weak point :  
+  It stores the old conversation into small vague summaries, therefore, it cant access old specifics of old chats.
