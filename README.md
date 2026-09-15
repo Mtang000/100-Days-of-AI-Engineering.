@@ -440,4 +440,10 @@ If the external tool returns an error message then it can get trapped in an infi
 *Day 72 - Memory Buffer.  
 This buffer allows the model to hold long conversation, as the model has a limit on how much it can read text at once.  
 Weak point :  
-  It stores the old conversation into small vague summaries, therefore, it cant access old specifics of old chats.
+  It stores the old conversation into small vague summaries, therefore, it cant access old specifics of old chats.  
+
+
+*Day 73 - Task Planner.  
+The model breaks larger goal down into small steps assigning an execution priority to each one, this prevents AI from getting overwhelmed by massive requests.  
+Weak point :  
+  If the main larger goal is not clearly stated then the small steps would be mislead, feeding the AI with incorrect data.
