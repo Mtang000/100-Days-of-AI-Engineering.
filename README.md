@@ -446,4 +446,10 @@ Weak point :
 *Day 73 - Task Planner.  
 The model breaks larger goal down into small steps assigning an execution priority to each one, this prevents AI from getting overwhelmed by massive requests.  
 Weak point :  
-  If the main larger goal is not clearly stated then the small steps would be mislead, feeding the AI with incorrect data.
+  If the main larger goal is not clearly stated then the small steps would be mislead, feeding the AI with incorrect data.  
+
+
+*Day 74 - Worker Critic.  
+It uses a separate neural network strictly to train to evaluates rules and logic, by this ita prevents the model from outputting unchecked mistakes.  
+Weak point :  
+  There are two factors that may cause some problem, first it uses two neural network simultaneously and second it heavily depends on the quality of the critic model as it guides the main model.
