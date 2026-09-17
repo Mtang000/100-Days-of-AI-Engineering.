@@ -452,4 +452,11 @@ Weak point :
 *Day 74 - Worker Critic.  
 It uses a separate neural network strictly to train to evaluates rules and logic, by this ita prevents the model from outputting unchecked mistakes.  
 Weak point :  
-  There are two factors that may cause some problem, first it uses two neural network simultaneously and second it heavily depends on the quality of the critic model as it guides the main model.
+  There are two factors that may cause some problem, first it uses two neural network simultaneously and second it heavily depends on the quality of the critic model as it guides the main model.  
+
+
+( There was no network for some reason today, thats why I have to upload this code 12:30 am. )  
+*Day 75 - Agent State Machine.  
+It just make a system that ensures that complex tasks are executed in the correct order.  
+Weak point :  
+  The system depends on the router, if it misinterprets the context then the workflow breaks.
