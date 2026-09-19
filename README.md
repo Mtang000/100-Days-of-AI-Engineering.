@@ -459,4 +459,10 @@ Weak point :
 *Day 75 - Agent State Machine.  
 It just make a system that ensures that complex tasks are executed in the correct order.  
 Weak point :  
-  The system depends on the router, if it misinterprets the context then the workflow breaks.
+  The system depends on the router, if it misinterprets the context then the workflow breaks.  
+
+
+*Day 76 - Reward Model.  
+Its an automated judge that learns human preference by adjusting its internal math according to the winning and losing answer.  
+Weak point :  
+  It is very sensitive on the data its being provided or trained with. 
