@@ -465,4 +465,10 @@ Weak point :
 *Day 76 - Reward Model.  
 Its an automated judge that learns human preference by adjusting its internal math according to the winning and losing answer.  
 Weak point :  
-  It is very sensitive on the data its being provided or trained with. 
+  It is very sensitive on the data its being provided or trained with.  
+
+
+*Day 77 - DPO Loss.  
+It helps trains AI model by using mathematical formula to combine grading and text-generation into a single equation, making it use half the memory.  
+Weak point :  
+  It doesnt have any its just a simple method of saving memory while training models.
