@@ -471,4 +471,10 @@ Weak point :
 *Day 77 - DPO Loss.  
 It helps trains AI model by using mathematical formula to combine grading and text-generation into a single equation, making it use half the memory.  
 Weak point :  
-  It doesnt have any its just a simple method of saving memory while training models.
+  It doesnt have any its just a simple method of saving memory while training models.  
+
+
+*Day 78 - KV Cache.  
+It saves some intermediate numbers of previous words in the computer's memory.  
+Weak point :  
+  It just saves small amount of data in memory, hence coming handing in not as much situations.
