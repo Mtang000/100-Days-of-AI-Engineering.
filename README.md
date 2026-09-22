@@ -477,4 +477,10 @@ Weak point :
 *Day 78 - KV Cache.  
 It saves some intermediate numbers of previous words in the computer's memory.  
 Weak point :  
-  It just saves small amount of data in memory, hence coming handing in not as much situations.
+  It just saves small amount of data in memory, hence coming handing in not as much situations.  
+
+
+*Day 79 - MoE. ( I think I have done this before but I didnt understanded it properly. )  
+MoE ( Mixture of Experts ) increases the amount of knowledge a neural network can store.  
+Weak point :  
+  It will take RAM of all eight experts to load and proceed. 
