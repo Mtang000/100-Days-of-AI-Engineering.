@@ -483,4 +483,10 @@ Weak point :
 *Day 79 - MoE. ( I think I have done this before but I didnt understanded it properly. )  
 MoE ( Mixture of Experts ) increases the amount of knowledge a neural network can store.  
 Weak point :  
-  It will take RAM of all eight experts to load and proceed. 
+  It will take RAM of all eight experts to load and proceed.  
+
+
+*Day 80 - Quantization.  
+It converts 32-bit decimal numbers into 8-bit whole numbers reducing the amount of memory to run a neural network.  
+Weak point :  
+  In order to convert it permanently deletes information that where stored in decimals.
