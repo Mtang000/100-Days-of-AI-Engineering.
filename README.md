@@ -489,4 +489,10 @@ Weak point :
 *Day 80 - Quantization.  
 It converts 32-bit decimal numbers into 8-bit whole numbers reducing the amount of memory to run a neural network.  
 Weak point :  
-  In order to convert it permanently deletes information that where stored in decimals.
+  In order to convert it permanently deletes information that where stored in decimals.  
+
+
+*Day 81 - RoPE.  
+A model that is trained on 4,000-words can be fed 32,000-words during inference by RoPE.  
+Weak point :  
+  It will take a heavy toll on the system, as it calculates massive matrices at the same time, which will make the system overheat or even break.
