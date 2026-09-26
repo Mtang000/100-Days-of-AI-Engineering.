@@ -495,4 +495,10 @@ Weak point :
 *Day 81 - RoPE.  
 A model that is trained on 4,000-words can be fed 32,000-words during inference by RoPE.  
 Weak point :  
-  It will take a heavy toll on the system, as it calculates massive matrices at the same time, which will make the system overheat or even break.
+  It will take a heavy toll on the system, as it calculates massive matrices at the same time, which will make the system overheat or even break.  
+
+
+*Day 82 - Flash Attention and the Memory Wall.  
+Its work in-short is to decrease processing time and avoid OOM errors.  
+Weak point :  
+  It is deeply hardware-bounded, on incompatible hardware it can make pytorch to fall back to the standard methods.
