@@ -501,4 +501,10 @@ Weak point :
 *Day 82 - Flash Attention and the Memory Wall.  
 Its work in-short is to decrease processing time and avoid OOM errors.  
 Weak point :  
-  It is deeply hardware-bounded, on incompatible hardware it can make pytorch to fall back to the standard methods.
+  It is deeply hardware-bounded, on incompatible hardware it can make pytorch to fall back to the standard methods.  
+
+
+*Day 82 - Grouped-Query Attention.  
+It shrinks the KV cache size so that the GPU can fit much longer history of tokens.  
+Weak point :  
+  It adds slight architectural overhead in managing the grouping logic.
