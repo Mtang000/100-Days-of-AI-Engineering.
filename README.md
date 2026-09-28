@@ -504,7 +504,13 @@ Weak point :
   It is deeply hardware-bounded, on incompatible hardware it can make pytorch to fall back to the standard methods.  
 
 
-*Day 82 - Grouped-Query Attention.  
+*Day 83 - Grouped-Query Attention.  
 It shrinks the KV cache size so that the GPU can fit much longer history of tokens.  
 Weak point :  
-  It adds slight architectural overhead in managing the grouping logic.
+  It adds slight architectural overhead in managing the grouping logic.  
+
+
+*Day 84 - RMS Norm.  
+It removes two full tensor reduction per normalization layer, therefore, reducing GPU memory read/writes and memory latency across deep Transformer stacks.  
+Weak point :  
+  It doesnt have any weakness but there is theoretical weakness if the distribution udergo a severe mean shift then it wont work.
