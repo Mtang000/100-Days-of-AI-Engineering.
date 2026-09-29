@@ -513,4 +513,10 @@ Weak point :
 *Day 84 - RMS Norm.  
 It removes two full tensor reduction per normalization layer, therefore, reducing GPU memory read/writes and memory latency across deep Transformer stacks.  
 Weak point :  
-  It doesnt have any weakness but there is theoretical weakness if the distribution udergo a severe mean shift then it wont work.
+  It doesnt have any weakness but there is theoretical weakness if the distribution udergo a severe mean shift then it wont work.  
+
+
+*Day 85 - SwiGLU.  
+It works as a smart filter. It splits the information into two data paths, by doing this the model have the will to keep, boost or block every single word.  
+Weak point :  
+  As it splits in two, therefore it also takes twice the memory to run.
