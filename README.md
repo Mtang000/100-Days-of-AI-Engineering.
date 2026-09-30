@@ -519,4 +519,10 @@ Weak point :
 *Day 85 - SwiGLU.  
 It works as a smart filter. It splits the information into two data paths, by doing this the model have the will to keep, boost or block every single word.  
 Weak point :  
-  As it splits in two, therefore it also takes twice the memory to run.
+  As it splits in two, therefore it also takes twice the memory to run.  
+
+
+*Day 86 - Grouped-Query Attention.  
+It just reduces the time and memory by making multiple attention heads share key and value information.  
+Weak point :  
+  It slightly limited how divers the model's focus can be.
