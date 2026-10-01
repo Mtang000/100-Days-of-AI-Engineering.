@@ -525,4 +525,10 @@ Weak point :
 *Day 86 - Grouped-Query Attention.  
 It just reduces the time and memory by making multiple attention heads share key and value information.  
 Weak point :  
-  It slightly limited how divers the model's focus can be.
+  It slightly limited how divers the model's focus can be.  
+
+
+*Day 87 - Gated Cross-Attention.  
+GCA can make a model multi-task while not making or forgetting the previous ones.  
+weak point :  
+  It ignores the shape and layout of the image provided.
