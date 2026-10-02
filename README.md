@@ -531,4 +531,10 @@ Weak point :
 *Day 87 - Gated Cross-Attention.  
 GCA can make a model multi-task while not making or forgetting the previous ones.  
 weak point :  
-  It ignores the shape and layout of the image provided.
+  It ignores the shape and layout of the image provided.  
+
+
+*Day 88 - Vector Quantization Visualizer.  
+VQ converts continuous sensory data like pictures or sound into a fixed dictionary of numbers (tokens) that a text model can process.  
+Weak point :  
+  It doesnt fully trains on the data provided, it may only use 20 out of 100 visual to train.
