@@ -537,4 +537,10 @@ weak point :
 *Day 88 - Vector Quantization Visualizer.  
 VQ converts continuous sensory data like pictures or sound into a fixed dictionary of numbers (tokens) that a text model can process.  
 Weak point :  
-  It doesnt fully trains on the data provided, it may only use 20 out of 100 visual to train.
+  It doesnt fully trains on the data provided, it may only use 20 out of 100 visual to train.  
+
+
+*Day 89 - Classifier-Free Guidance.  
+Its just acts as a controlling knob for how strictly an AI follows the command.  
+Weak point :  
+  It doubles the computation cost and distorts colours/lighting if set too high.
