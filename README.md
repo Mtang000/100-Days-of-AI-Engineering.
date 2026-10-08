@@ -549,4 +549,10 @@ Weak point :
 *Day 90 - Speculative Decoding.  
 It basically speeds up text generation by letting a tiny, fast AI guess the next few words, while the big AI checks them all in a single fast pass.  
 Weak point :  
-  It requires holding two separate models in GPU memory and provides zero speedup if the draft model's guesses are bad.
+  It requires holding two separate models in GPU memory and provides zero speedup if the draft model's guesses are bad.  
+
+
+*Day 91 - Adaptive Layer Normalization with Zero-Initialization.  
+It inserts time and prompt instructions directly into every single layer of a Transformer.  
+weak point :  
+  It makes every layer completely dependent on a single shared conditioning vector.
