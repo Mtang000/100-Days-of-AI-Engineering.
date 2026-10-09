@@ -555,4 +555,10 @@ Weak point :
 *Day 91 - Adaptive Layer Normalization with Zero-Initialization.  
 It inserts time and prompt instructions directly into every single layer of a Transformer.  
 weak point :  
-  It makes every layer completely dependent on a single shared conditioning vector.
+  It makes every layer completely dependent on a single shared conditioning vector.  
+
+
+*Day 92 - Selective State Space Model.  
+The model gives the neural networks the long-context capabilities of Transformers without the memory wall.  
+Weak point :  
+  Sequential state updates cannot be natively parallelized during training without specialized hardware algorithms.
