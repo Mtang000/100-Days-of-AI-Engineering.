@@ -563,8 +563,15 @@ The model gives the neural networks the long-context capabilities of Transformer
 Weak point :  
   Sequential state updates cannot be natively parallelized during training without specialized hardware algorithms.  
 
-
+  
+  (Note:- I dont exactly know why Github didnt commit uploading og Day 93 yesterday but anyway I have to upload it again.) 
 *Day 93 - Multi-Head Latent Attention.  
 It instead of storing massive multi-head matrices for every single past token in VRAM, The model just squishes them into a tiny laten cache on the fly.  
 Weak point :  
-  It introduces a compression bottleneck and requires complex matrix multiplications.
+  It introduces a compression bottleneck and requires complex matrix multiplications.  
+
+
+*Day 94 - Flow Matching.  
+It draws straight, direct highways from random noise to a final image instead of winding, random trails.  
+Weak point :  
+  It struggles if the straight paths collide or cross paths during training.
