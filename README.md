@@ -561,4 +561,10 @@ weak point :
 *Day 92 - Selective State Space Model.  
 The model gives the neural networks the long-context capabilities of Transformers without the memory wall.  
 Weak point :  
-  Sequential state updates cannot be natively parallelized during training without specialized hardware algorithms.
+  Sequential state updates cannot be natively parallelized during training without specialized hardware algorithms.  
+
+
+*Day 93 - Multi-Head Latent Attention.  
+It instead of storing massive multi-head matrices for every single past token in VRAM, The model just squishes them into a tiny laten cache on the fly.  
+Weak point :  
+  It introduces a compression bottleneck and requires complex matrix multiplications.
