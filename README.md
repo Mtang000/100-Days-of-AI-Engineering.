@@ -564,7 +564,7 @@ Weak point :
   Sequential state updates cannot be natively parallelized during training without specialized hardware algorithms.  
 
   
-  (Note:- I dont exactly know why Github didnt commit uploading og Day 93 yesterday but anyway I have to upload it again.) 
+(Note:- I dont exactly know why Github didnt commit uploading og Day 93 yesterday but anyway I have to upload it again.)   
 *Day 93 - Multi-Head Latent Attention.  
 It instead of storing massive multi-head matrices for every single past token in VRAM, The model just squishes them into a tiny laten cache on the fly.  
 Weak point :  
