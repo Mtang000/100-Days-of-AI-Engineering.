@@ -574,4 +574,10 @@ Weak point :
 *Day 94 - Flow Matching.  
 It draws straight, direct highways from random noise to a final image instead of winding, random trails.  
 Weak point :  
-  It struggles if the straight paths collide or cross paths during training.
+  It struggles if the straight paths collide or cross paths during training.  
+
+
+*Day 95 - Perceiver Re-sampler.  
+It uses 64 fixed slots that look across the image patches and extract only the most important visual details, compressing a massive image grid into a neat package that the text model can understand easily.  
+Weak point :  
+  It creates a hard information bottleneck. 
