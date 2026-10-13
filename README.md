@@ -580,4 +580,11 @@ Weak point :
 *Day 95 - Perceiver Re-sampler.  
 It uses 64 fixed slots that look across the image patches and extract only the most important visual details, compressing a massive image grid into a neat package that the text model can understand easily.  
 Weak point :  
-  It creates a hard information bottleneck. 
+  It creates a hard information bottleneck.  
+
+
+*Day 96 - BitNet b1.58.  
+(Note :- Its late there around 1:45 am, so for this day I just picked the Bitnet that I found on Microsoft Research.)  
+BitNet b1.58 shrinks model weights down to just three possible numbers: -1, 0 and 1.  
+Weak point :  
+  Training requires maintaining full-precision master weights in the background.
