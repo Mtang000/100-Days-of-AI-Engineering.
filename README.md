@@ -587,4 +587,10 @@ Weak point :
 (Note :- Its late there around 1:45 am, so for this day I just picked the Bitnet that I found on Microsoft Research.)  
 BitNet b1.58 shrinks model weights down to just three possible numbers: -1, 0 and 1.  
 Weak point :  
-  Training requires maintaining full-precision master weights in the background.
+  Training requires maintaining full-precision master weights in the background.  
+
+
+*Day 97 - Mixture of Depths.  
+The model acts like an intelligent editor that only sends important words to the heavy AI processors.  
+Weak point :  
+  It causes jagged tensor shapes and complicates parallel GPU execution.
