@@ -593,4 +593,10 @@ Weak point :
 *Day 97 - Mixture of Depths.  
 The model acts like an intelligent editor that only sends important words to the heavy AI processors.  
 Weak point :  
-  It causes jagged tensor shapes and complicates parallel GPU execution.
+  It causes jagged tensor shapes and complicates parallel GPU execution.  
+
+
+*Day 98 - DeepNorm.  
+It acts like a mathematical shock absorber for massive, thousand-layer neural networks.  
+Weak point :  
+  It cant work if the total count of layers are not fed beforehand.
