@@ -599,4 +599,10 @@ Weak point :
 *Day 98 - DeepNorm.  
 It acts like a mathematical shock absorber for massive, thousand-layer neural networks.  
 Weak point :  
-  It cant work if the total count of layers are not fed beforehand.
+  It cant work if the total count of layers are not fed beforehand.  
+
+
+*Day 99 - Ring Attention.  
+The code allows AI models to read books, codebases, or hours of video by splitting the massive text up and sharing it across a team of GPUs.  
+Weak point :  
+  It is bottlenecked entirely by network interconnect speeds between physical servers.
