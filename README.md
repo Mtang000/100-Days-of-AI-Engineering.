@@ -605,4 +605,17 @@ Weak point :
 *Day 99 - Ring Attention.  
 The code allows AI models to read books, codebases, or hours of video by splitting the massive text up and sharing it across a team of GPUs.  
 Weak point :  
-  It is bottlenecked entirely by network interconnect speeds between physical servers.
+  It is bottlenecked entirely by network interconnect speeds between physical servers.  
+
+
+*Day 100 - Neural ReAct Agent Memory Workspace.  
+This layer gives an AI a true scratchpad of working memory so it can think through multi-step problems.  
+Weak point :  
+  It is difficult to train end-to-end without reinforcement learning.  
+
+
+Alright, in this journey I could have been more consistent and provide more quality code but it was my first time going into a challenge blind and with no prior experience.  
+In that case, I guess I didnt do that terrible.  
+And I do still believe that this was the fastest way to learn and understand neural network codes, I didnt know what I was doing till day 20 or 25 but coming at the end it kinda make sense.  
+hopefully this will not be my last challenge or upload.  
+Peace.
